@@ -1,0 +1,332 @@
+
+
+/* CSS RESET */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/*HEADER - NAVIGATION */
+
+header{
+    background-color: #b0bec5;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    margin: 0 15px;
+}
+
+#logo{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+}
+#logo img{
+    height: 50px;
+    border-radius: 50px;
+}
+
+nav ul{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: black;
+    font-size: 1.1rem;
+
+    transition: all 0.3s;
+}
+nav ul li a:hover{
+    background-color: #34515e;
+    color: white;
+
+}
+
+#sign{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.signup-in{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: black;
+    font-size: 1rem;
+    border: 0 solid white;
+    background-color: #F5F6FB;
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+.signup-in:hover{
+    background-color: #34515e;
+    color: white;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* PROMO SECTION */
+
+#promo{
+    /* border: 2px solid red; */
+    margin: 100px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.promo-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 90%;
+    margin: 0 5px;
+}
+#promo-container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+
+#promo-container-1 h1{
+    font-size: 4rem;
+    margin: 10px;
+    line-height: 1.3;
+}
+#promo-container-1 p{
+    font-size: 1.5rem;
+    margin: 10px;
+    line-height: 1.3;
+}
+#promo-container-2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#promo-container-2 img{
+    width: 90%;
+    height: auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* CLIENT SECTION */
+
+#clients{
+    /* border: 2px solid red; */
+    margin: 100px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#clients #desc{
+    /* border: 2px solid red; */
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 10px;
+}
+#clients #client-logos{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+#clients #client-logos img{
+    height: 50px;
+    margin: 0 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* PROMO 2 */
+
+#promo-2{
+    /* border: 2px solid red; */
+    margin: 100px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#promo-2-1{
+    color: #F75C4E;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+#promo-2-2{
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 10px;
+}
+#promo-2-3{
+    color: black;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* SERVICES SECTION */
+
+#services{
+    /* border: 2px solid red; */
+    margin: 100px 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+.services-items{
+    /* border: 2px solid red; */
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.services-logo{
+    margin: 5px;
+}
+.services-desc{
+    margin: 5px;
+}
+.services-desc h1{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.services-desc p{
+    font-size: 1rem;
+    padding: 5px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* HIGHLIGHTS */
+
+#highlights{
+    /* border: 2px solid red; */
+    margin: 100px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.highlights-container{
+    /* border: 2px solid red; */
+    margin: 10px;
+    width: 50%;
+}
+#highlights-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#highlights-img img{
+    height: 100% ;
+    width: 80%;
+}
+    #highlights-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start
+    }
+#highlights-desc h1{
+    color: #F75C4E;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+#highlights-desc h2{
+    color: black;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+#highlights-desc p{
+    color: black;
+    font-size: 1.1rem;
+    padding: 5px;
+    line-height: 30px;
+}
+#highlights-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#highlights-email #email{
+    margin: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+    border: 0px solid white;
+    background-color: #e7ebff;
+    border-radius: 30px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* FOOTER */
+
+footer{
+    background-color: #455a64;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer p{
+    margin: 10px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}

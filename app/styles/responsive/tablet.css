@@ -1,0 +1,112 @@
+/* TEST */
+
+/* body{
+    background-color: red;
+} */
+br{
+    display: none;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+/*HEADER - NAVIGATION */
+header{
+    background-color: #b0bec5;
+    position: static;
+}
+
+nav{
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* PROMO SECTION */
+
+#promo{
+    flex-direction: column;
+    margin: 50px 15px;
+}
+.promo-container{
+    margin: 15px 0;
+}
+#promo-container-1{
+    width: 70%;
+    align-items: center;
+    text-align: center;
+}
+#promo-container-2{
+    width: 70%;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* CLIENT SECTION */
+
+#clients{
+    flex-direction: column;
+    margin: 50px 15px;
+}
+#client-materials{
+    margin: 15px 0;
+}
+#clients #desc{
+    text-align: center;
+}
+#clients #client-logos img{
+    margin: 10px 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* PROMO 2 */
+
+#promo-2{
+    margin: 50px 15px;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* SERVICES SECTION */
+
+#services{
+    margin: 50px 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* HIGHLIGHTS */
+
+#highlights{
+    margin: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#highlights-img{
+    width: 80%;
+}
+#highlights-desc{
+    width: 80%;
+    align-items: center;
+}
+#highlights-email{
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* FOOTER */
+
+footer p{
+    font-size: 10px;
+}
